@@ -1,0 +1,228 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.shopping-cart{
+  justify-content: space-between;
+  background-color: #61dafb;
+  padding: 20px 30px;
+}
+.product-item {
+  padding: 20px;
+} */
+
+
+
+/* App.css */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: black; /* Set your desired background color */
+  color: #fff; /* Set your desired text color */
+}
+
+.flex div {
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.shopping-card {
+  font-size: 18px;
+  height: 70px;
+}
+
+.logo {
+  width: 100px; 
+  height: auto; 
+  margin-right: 10px; 
+}
+
+.car {
+  width: 40px; 
+  height: auto; 
+  margin-right: 10px; 
+}
+
+
+
+.product-item {
+  text-align: center;
+  margin: 10px;
+}
+
+
+.product-item img {
+  width: 150px; 
+  height: 200px; 
+}
+
+.flex div, .nav-link, .signup-button {
+  cursor: pointer;
+  margin: 0 10px;
+  color: #fff; 
+  text-decoration: none;
+}
+.signup-button {
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 8px 12px; 
+  background-color: #3498db; 
+  border: none;
+  border-radius: 4px; 
+}
+
+
+@media only screen and (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .flex div {
+    margin: 10px 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .product-item {
+    margin: 10px 0;
+  }
+}
+
+
+
+input{
+margin: 20px;
+/* border: 3px solid black; */
+
+}
+
+.form , button{
+  /* background-color: black; */
+  color: black;
+  margin-left: 10px;
+}
+
+
+
+ /* .form1{
+  /* background-image: url(https://images.indulgexpress.com/uploads/user/imagelibrary/2023/3/2/original/DSC01009.jpg);
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+  background-position: 100%; */
+  /* width: 100%; */
+  /* height: 1000%; */
+  /* background-color: red; */
+/* }   */
+
+.order h1{
+  color:white;
+  font-family: 'Times New Roman', Times, serif;
+}
+.order{
+  background-color: #080808;
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+  padding: 60px;
+  border: 5px solid red;
+}
+
+.ordeitem{
+  padding: 20px;
+  color: #fff;
+  border: 2px solid rgb(51, 51, 51);
+  width: 300px;
+  /* display: flex; */
+}
+
+.back{
+  background-color: #111010;
+}
+
+.order button{
+  padding: 6px;
+  /* display: flex; */
+  background-color: #111010;
+  
+}
+
+.revbtn a{
+  text-decoration: none;
+  width: 10px;
+  padding: 20px;
+  /* background-color:ed; */
+  color: #fff;
+}
+
+.button1 button{
+  background-color: red;
+  /* display: inline-block; */
+}
+
+@media (max-width: 768px) {
+  .button1 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .search-bar {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  input {
+    margin-bottom: 5px;
+  }
+
+  button {
+    margin-top: 5px;
+  }
+
+  .revbtn {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+}

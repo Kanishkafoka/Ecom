@@ -1,0 +1,67 @@
+Copy code
+.main {
+  position: relative;
+  
+}
+#carouselExampleInterval img{
+  width: 200px;
+  height: 700px;
+}
+
+
+.overlay {
+  position: absolute;
+  /* display: flex; */
+  top: 10;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./component/assets/MovieandMunchies.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.main3 {
+  /* position: absolute; */
+  /* top: 40%; */
+  padding: 10px;
+  left: 35%;
+  height: 80px;
+  /* transform: translate(-400%, -70%); */
+  text-align: center;
+  background-color: black;
+  z-index: 5;
+}
+
+.main3 button {
+  margin: 10px;
+  padding: 0px 20px;
+  font-size: 1px;
+  background-color: #e6eff5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  width: 130px;
+}
+
+.main3 a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+@media (max-width: 208px) {
+  .main3 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main3 button {
+    width: 100%;
+  }
+}

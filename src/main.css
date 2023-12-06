@@ -1,0 +1,25 @@
+.login1{
+    background-image: url(https://www.hdwallpapers.in/download/dark_black_red_shapes_4k_hd_abstract-1280x720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000;
+    font-weight: bold;
+}
+
+.login2 button{
+    color: black;
+    font-weight: bolder;
+}
+
+.login2{
+    padding: 300px;
+    margin-left: 310px;
+}
+
+.login2 h2 {
+    color: #000000;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
